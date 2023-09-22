@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include <stdlib.h>
+ #include <stdlib.h>
 #include <conio.h>
 
 struct employee {
@@ -35,7 +35,7 @@ void payBill(struct user *usr) {
     billAmount = 8.97 * units;
 
     if (billAmount > usr->balance) {
-        printf("Insufficient balance to pay the bill.\n");
+        printf("Insufficient balance  pay the bill.\n");
     } else {
         usr->balance -= billAmount;
         printf("Electricity bill of Rs.%.2f for meter number %s has been successfully paid. Your new balance is Rs.%.2f\n", billAmount, meterNumber, usr->balance);
