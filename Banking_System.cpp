@@ -143,7 +143,7 @@ void movieTickets(struct user *usr) {
 
     printf("\nAvailable Movies:\n");
     printf("1. Ratsasan - Rs.299 per seat\n");
-    printf("2. Openheimer - Rs.499 per seat\n");
+    printf("2. Oppenheimer - Rs.499 per seat\n");
     printf("3. Brahmastra - Rs.299 per seat\n");
     printf("4. Dangal - Rs.299 per seat\n");
     printf("5. Pushpa - Rs.299 per seat\n");
