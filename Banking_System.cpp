@@ -129,7 +129,7 @@ void darazOnlineShopping(struct user *usr) {
     scanf("%f", &totalAmount);
 
     if (totalAmount > usr->balance) {
-        printf("Insufficient balance to pay the bill.\n");
+        printf("Insufficient balance to pay the Bill.\n");
     } else {
         usr->balance -= totalAmount;
         printf("Daraz online shopping bill of Rs.%.2f for order number %s has been successfully paid. Your new balance is Rs.%.2f\n", totalAmount, orderNumber, usr->balance);
